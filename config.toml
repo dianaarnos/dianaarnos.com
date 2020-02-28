@@ -1,0 +1,27 @@
+baseURL = "https://dianaarnos.com/"
+languageCode = "pt-br"
+title = "Diana Arnos"
+theme = "notepadium"
+disqusShortname = "dianaarnos"
+
+[params]
+slogan = "As above, so below."
+mainSections = ["blog"]
+style = "auto"
+
+[params.nav]
+showCategories = false       # /categories/
+showTags = false             # /tags/
+
+# custom navigation items
+
+[[params.nav.custom]]
+title = "Sobre"
+url = "/sobre"
+
+[[params.nav.custom]]
+title = "Talks"
+url = "https://speakerdeck.com/dianaarnos"
+
+[params.comments]
+enable = true
