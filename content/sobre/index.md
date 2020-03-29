@@ -11,3 +11,11 @@ Também sou vocalista da NoWay, banda de Heavy Metal com 2 álbuns lançados, e 
 através de Ving Tsun.
 
 Como posso te ajudar? Me mande um e-mail ou mensagem nas redes sociais :)
+
+Email: diana [.] arnos [@] gmail [.] com
+
+[Twitter](https://twitter.com/dianaarnos) | 
+[Instagram](https://www.instagram.com/dianaarnos/) | 
+[Github](https://github.com/dianaarnos/) | 
+[LinkedIn](https://www.linkedin.com/in/dianaarnos/) | 
+[Facebook](https://www.facebook.com/dianaarnos) (quase não uso)
