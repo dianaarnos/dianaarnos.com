@@ -1,11 +1,12 @@
----
-title: "WordPress no Google App Engine"
-date: 2018-06-13T21:30:02-03:00
-author: "Diana Arnos"
-draft: true
----
++++
+title = "WordPress no Google App Engine"
+date = 2018-06-13T21:30:02-03:00
+author = "Diana Arnos"
+categories = ["Programação", "Infra"]
+tags = ["wordpress", "google app engine"]
++++
 
-Recentemente eu precisei disponibilizar uma instalação <a href="https://wordpress.org/" target="_blank">WordPress</a> no <a href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a> e deu um pouco de trabalho pra achar materiais de consulta atuais, então resolvi disponibilizar um passo-a-passo pra facilitar a vida de quem precisar fazer isso ou tiver a curiosidade de tentar :)
+Recentemente eu precisei disponibilizar uma instalação [WordPress](https://wordpress.org/) no [Google App Engine](https://cloud.google.com/appengine/) e deu um pouco de trabalho pra achar materiais de consulta atuais, então resolvi disponibilizar um passo-a-passo pra facilitar a vida de quem precisar fazer isso ou tiver a curiosidade de tentar :)
 
 1. Primeiro, você precisa configurar o Google Cloud SDK com a sua conta e o ID do projeto:
 ~~~
@@ -71,7 +72,7 @@ Mas tem alguns truques a serem feitos pra "ensinar" o WordPress a fazer todo o p
 
 Sim, isso pode dar um certo trabalho, MAS… A linda da Google já deixou tudo pronto pra gente :D
 
-Existe um repositório <a href="https://github.com/GoogleCloudPlatform" target="_blank">no GitHub da própria Google Cloud Platform</a> que chama "php-docs-samples". Ele tem MUITOS exemplos de código PHP pra usar cada um dos serviços de Cloud (sério, cada um mesmo).
+Existe um repositório [no GitHub da própria Google Cloud Platform](https://github.com/GoogleCloudPlatform) que chama "php-docs-samples". Ele tem MUITOS exemplos de código PHP pra usar cada um dos serviços de Cloud (sério, cada um mesmo).
 
 Entre tantos scripts úteis, o que vamos usar é um que faz o download do WordPress, configura com as bibliotecas da Google e já prepara a configuração para o deploy no App Engine.
 7. Clone o repositório com os scripts da Google
@@ -97,7 +98,7 @@ Por quê?
 
 Por limitações de configuração do próprio modelo Standard o WordPress não consegue evoluir a instalação do step 1 para o step 2 graças a um timeout na execução do script. ¯\\_(ツ)_/¯
 
-Eu criei <a href="https://github.com/GoogleCloudPlatform/php-docs-samples/issues/618" target="_blank">uma issue reportando isso</a>, mas infelizmente ainda não consegui reservar um tempo pra trabalhar nela.
+Eu criei [uma issue reportando isso](https://github.com/GoogleCloudPlatform/php-docs-samples/issues/618), mas infelizmente ainda não consegui reservar um tempo pra trabalhar nela.
 
 Bom… finalizada a instalação/configuração de instância, hora do deploy \o/
 11. Deploy time!

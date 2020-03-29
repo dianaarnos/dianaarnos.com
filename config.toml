@@ -10,7 +10,7 @@ mainSections = ["blog"]
 style = "auto"
 
 [params.nav]
-showCategories = false       # /categories/
+showCategories = true       # /categories/
 showTags = false             # /tags/
 
 # custom navigation items

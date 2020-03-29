@@ -1,17 +1,19 @@
----
-title: "Mentoria e tutorização - precisamos conversar"
-date: 2019-09-07T21:30:02-03:00
-author: "Diana Arnos"
-draft: true
----
++++
+title = "Mentoria e tutorização - precisamos conversar"
+date = 2019-09-07T21:30:02-03:00
+author = "Diana Arnos"
+categories = ["Carreira"]
+tags = ["mentoria"]
++++
 
-<i><a href="https://imasters.com.br/carreira-dev/mentoria-e-tutorizacao-precisamos-conversar" target="_blank">Publicado primeiramente no iMasters</a></i>
+_[Publicado primeiramente no iMasters](https://imasters.com.br/carreira-dev/mentoria-e-tutorizacao-precisamos-conversar)_
 
 Todos nós, em algum momento de nossas carreiras, assumimos o papel de mentor e tutor. Seja como um representante de alguma comunidade de desenvolvimento ajudando a espalhar conhecimento, seja dentro de uma empresa em que coordenamos uma equipe ou precisamos preparar um sucessor, ou mesmo por um espaço delimitado de tempo numa hackathon ou em um workshop. Hoje, temos até comunidades inteiramente dedicadas a ligar mentores a quem deseja aprender, como é o caso da Training Center ou o programa de mentoria da WoMakers Code.
 
 Nos últimos dois anos da minha carreira, eu resolvi me dedicar mais a aprender melhor e a compartilhar conhecimento, depois de uma experiência frustrante tentando contratar desenvolvedores teoricamente seniors que sabiam muitas regras de cor, mas efetivamente não dominavam nenhum conceito.
 
-<h4>10 anos decorando regras e sintaxes não te fazem um bom resolvedor de problemas</h4>
+10 anos decorando regras e sintaxes não te fazem um bom resolvedor de problemas
+-------------------------------------------------------------------------------
 
 Nessa jornada pessoal de tentar ajudar cada vez mais pessoas, percebi uma questão que parece simples, mas não é: todo mundo fala em ensinar, mas ninguém fala sobre “permitir aprender”. E são coisas diferentes. BEM diferentes. Algumas coisas só podem ser aprendidas, mas não ensinadas, porque dependem muito da experiência pessoal de cada um e da lição que pode ser tirada do ocorrido, dado o atual contexto da pessoa.
 
@@ -21,10 +23,12 @@ Um dos times, por algum motivo, não tinha uma pessoa que entendesse de desenvol
 
 E cada um desses mentores tinha seus argumentos embasando a escolha. Nenhum deles perguntou coisas tipo “qual o problema que você precisa resolver?” ou “qual caminho você acha que pode seguir?”. Nenhum conceito foi discutido, a situação sempre se resumia a “você precisa desenvolver web, usa esse framework aqui que vai resolver seu problema”.
 
-<h4>É esse mesmo o papel de um mentor? Ou de um tutor?</h4>
+É esse mesmo o papel de um mentor? Ou de um tutor?
+--------------------------------------------------
 
 Você sabia que tutorar e mentorar são coisas diferentes? Acredito que em algum momento você já tenha visto alguma árvore ou outra planta apoiada em uma espécie de pedaço de madeira, como nesta imagem aqui:
 
+![](/images/posts/tutor.jpg " ")
 <img class="img-fluid" src="/assets/img/tutor.jpg">
 
 Isso é um tutor. A função dele é guiar o crescimento da planta em uma determinada direção (nesse caso, para cima). Ele dá a sustentação que, por enquanto, o próprio corpo da planta não tem.

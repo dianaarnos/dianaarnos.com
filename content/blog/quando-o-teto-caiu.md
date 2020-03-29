@@ -1,12 +1,11 @@
----
-title: "Quando o teto caiu"
-date: 2018-06-20T21:30:02-03:00
-author: "Diana Arnos"
-draft: true
----
-
-<img class="img-fluid" src="/assets/img/teto.png">
-
++++
+title = "Quando o teto caiu"
+date = 2018-06-20T21:30:02-03:00
+author = "Diana Arnos"
+cover = "/images/posts/teto.png"
+categories = ["Outros"]
+tags = ["filosofando", "vida"]
++++
 Eu raramente fico de mau humor. Raramente fico brava com algo ou fico frustrada. Não guardo mágoas nem de situações e nem de pessoas.
 
 Eu tenho amigos que ficam irritados comigo por eu não me irritar com (quase) nada.

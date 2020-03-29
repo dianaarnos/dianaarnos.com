@@ -1,9 +1,13 @@
----
-title: "O que mudou no PHP7"
-date: 2020-02-27T21:30:02-03:00
-author: "Diana Arnos"
-draft: true
----
++++
+title = "O que mudou no PHP7"
+date = 2020-02-27T21:30:02-03:00
+author = "Diana Arnos"
+draft = false
+comments = true
+cover = "/images/posts/php7_performance.png"
+categories = ["Programação"]
+tags = ["php", "php7"]
++++
 
 Como muita gente ainda me pergunta o porquê dessa grande diferença entre o PHP 5 e o 7, resolvi escrever um curto e
 simples artigo sobre isso (afinal, tem gente que sabe muito mais do que eu e poderia explicar muito melhor).
