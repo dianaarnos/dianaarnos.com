@@ -1,3 +1,4 @@
 [submodule "themes/notepadium"]
 	path = themes/notepadium
-	url = https://github.com/dianaarnos/hugo-notepadium.git
+	url = git@github.com:dianaarnos/hugo-notepadium
+	branch = master
