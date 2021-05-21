@@ -3,18 +3,19 @@ title = "Aplicações gráficas no WSL2"
 date = 2020-06-01T09:30:02-03:00
 author = "Diana Arnos"
 draft = false
-comments = true
-cover = "/images/posts/aplicacoes_graficas_wsl2/wsl2.png"
+image = "/images/posts/aplicacoes_graficas_wsl2/wsl2.png"
+description = "Para conseguir rodar aplicações gráficas do Linux no seu Windows 10 você precisa fazer forwarding do X11 de forma que seu W10 possa receber os sinais e executar as instruções gráficas."
 categories = ["Outros"]
 tags = ["windows", "wsl2", "x11"]
 +++
+![](/images/posts/aplicacoes_graficas_wsl2/wsl2.png)
 
 Antes de começar, vale lembrar que as features mais recentes estão disponíveis apenas para quem está no Fast Ring do Windows Insider Program.  
 No momento de publicação desse artigo, eu estou na *build 19619.1000* e usando o *Ubuntu 20.04* como distro.
 
 Para conseguir rodar aplicações gráficas do Linux no seu Windows 10 você precisa fazer forwarding do X11 de forma que seu W10 possa receber os sinais e executar as instruções gráficas. 
 
-### Mas o que é X11? 
+# Mas o que é X11?
 De maneira simplista e rasa, vou dizer que é um protocolo de comunicação que permite que aplicações possam criar objetos como janelas e usar primitivas básicas de desenho.  
 Simplificando ainda mais, podemos assumir que X11 é o responsável pelo ambiente gráfico do Linux (na maioria das distros, mas nem todas usam).   
 Essa não é a explicação mais correta, mas é o suficiente pra entender o que vamos fazer aqui.
@@ -23,7 +24,7 @@ Resumidamente: você vai iniciar uma aplicação gráfica no Linux. A partir da�
 
 Agora, ao passo-a-passo simples:
 
-#### 1. SSH
+## 1. SSH
 Garanta que a distro tenha um servidor ssh instalado (o openssh-server é "mais que bom") e edite o arquivo de configuração `/etc/ssh/sshd_config` para que contenha essas linhas:
 
 ```bash

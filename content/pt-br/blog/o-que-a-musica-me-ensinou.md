@@ -2,6 +2,7 @@
 title = "O que a música me ensinou sobre programação"
 date = 2016-01-22T21:30:02-03:00
 author = "Diana Arnos"
+description = "Com alguns muitos anos de experiência no mundo da música e mais alguns em programação, não demorou para eu perceber que muitas das lições aprendidas em um servem para o outro."
 categories = ["Carreira", "Programação"]
 tags = ["estudos"]
 +++

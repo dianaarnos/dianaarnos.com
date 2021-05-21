@@ -2,10 +2,13 @@
 title = "Minimalismo?"
 date = 2018-06-06T21:30:02-03:00
 author = "Diana Arnos"
-cover = "/images/posts/minimalismo.jpg"
+image = "/images/posts/minimalismo.jpg"
+description= "Acredito que “ter uma vida minimalista” tenha um significado diferente para cada um. Para mim é me sentir um pouco mais livre, me preocupar menos com coisas e mais com pessoas e simplificar a minha vida financeira (ainda mais agora que estou saindo de um buraco que eu mesma cavei — mas quem nunca?)"
 categories = ["Outros"]
 tags = ["filosofando", "minimalismo"]
 +++
+![](/images/posts/minimalismo.jpg)
+
 Acredito que “ter uma vida minimalista” tenha um significado diferente para cada um. Para mim é me sentir um pouco mais livre, me preocupar menos com coisas e mais com pessoas e simplificar a minha vida financeira (ainda mais agora que estou saindo de um buraco que eu mesma cavei — mas quem nunca?)
 
 Nos últimos meses minha vida mudou drasticamente e não somente devido a fatores externos. Eu mudei muitas coisas em mim mesma.

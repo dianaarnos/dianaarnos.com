@@ -2,6 +2,7 @@
 title = "WordPress no Google App Engine"
 date = 2018-06-13T21:30:02-03:00
 author = "Diana Arnos"
+description = "Recentemente eu precisei disponibilizar uma instalação WordPress no Google App Engine e deu um pouco de trabalho pra achar materiais de consulta atuais, então resolvi disponibilizar um passo-a-passo pra facilitar a vida de quem precisar fazer isso ou tiver a curiosidade de tentar :)"
 categories = ["Programação", "Infra"]
 tags = ["wordpress", "google app engine"]
 +++
