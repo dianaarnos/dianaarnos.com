@@ -1,0 +1,206 @@
+logoText = "Diana Arnos" # Logo text that appears in the site navigation bar.
+logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
+logo = false # Logo that appears in the site navigation bar.
+description = "Meu blog" # for SEO
+custom_css = [] # custom_css = ["scss/custom.scss"] and then put file at root/assets/scss/custom.scss
+custom_js = [] # custom_js = ["js/custom.js"] and then put file at root/assets/js/custom.js
+useFaviconGenerator = false # https://www.favicon-generator.org/
+languagedir = "ltr" # ltr / rtl
+
+themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
+notAllowedTypesInArchive = ["about", "talks", "showcase", "gallery"] # not allowed page types in archive page
+notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
+enablePinnedPosts = true # show pinned posts first in the main view
+
+viewportSize = "wide" # widest, wider, wide, normal, narrow
+enableUiAnimation = true
+hideSingleContentsWhenJSDisabled = false
+minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
+
+searchResultPosition = "main"
+
+# appbar
+enableAppbarSearchIcon = false
+enableAppbarLangIcon = true
+
+# header
+homeHeaderType = "text" # text, img, slide, typewriter
+hideHomeHeaderWhenMobile = false
+
+# menu
+showMobileMenuTerms = ["tags", "categories", "series"]
+
+# navbar
+enableThemeChange = true # site color theme
+
+# body
+enableBreadcrumb = true # breadcrumb for list, single page
+enableSearch = true # site search with Fuse
+enableSearchHighlight = true # when true, search keyword will be highlighted
+enableGoToTop = true # scroll to top
+enableWhoami = true # at the end of single page
+summaryShape = "classic" # card, classic, compact
+archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+archivePaginate = 15 # items per page
+paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
+talksPaginate = 10 # items per page
+talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+
+# whoami: usage - home page sidebar, single page bottom of post. all values can be empty
+myname = "Diana Arnos"
+email = ""
+whoami = "Software Engineer @ Momentive.ai"
+bioImageUrl = "https://pbs.twimg.com/profile_images/1314195428368236550/bxriLFfN_400x400.jpg" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
+useGravatar = false # we use this option highest priority
+location = "Haarlem, Netherlands"
+organization = ""
+link = ""
+
+# sidebar
+enableBio = true # in home page sidebar
+enableBioImage = true # in home page sidebar
+enableSidebar = true # Set to false to create the full width of the content.
+enableSidebarTags = true # if you want to use tags.
+enableSidebarSeries = true
+enableSidebarCategories = true
+enableHomeSidebarTitles = true
+enableListSidebarTitles = true
+enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
+hideToc = false # Hide or Show toc
+tocPosition = "inner" # inner, outer
+tocFolding = false
+enableTocSwitch = true # single page table of contents visibility switch
+itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
+sidebarPosition = "right" # bio, profile component layout position
+tocLevels = ["h2", "h3", "h4"] # minimum h2, maximum h4 in your article
+enableSidebarPostsByOrder = false # another lists in the sidebar
+
+# footer
+showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
+showFeedLinks = true # RSS Feed
+showSocialLinks = true # email, facebook, twitter ...
+enableLangChange = true # show button at bottom left of footer.
+
+# service
+googleTagManager = "" # GTM-XXXXXX
+baiduAnalytics = "" # alternative of google analytics
+enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
+busuanziSiteUV = false # unique visitors (total number of visitors)
+busuanziSitePV = false # site total page view count
+busuanziPagePV = false # post view count
+
+# comment
+enableComment = true
+disqus_shortname = "dianaarnos"
+commento = false
+
+[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+  clientId = ""           # Your client ID
+  clientSecret = ""       # Your client secret
+
+[utterances]       # https://utteranc.es/
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+  message = ""      # Optional
+  link = ""         # Optional
+
+[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+  clientId = ""           # Your client ID
+  clientSecret = ""       # Your client secret
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[valine]
+  enable = false
+  appId = ''
+  appKey = ''
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = ''
+  visitor = false
+
+[changyan]
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+[livere]
+  livereUID = ""            # LiveRe UID                  # 来必力
+
+# Isso: https://posativ.org/isso/
+[isso]
+  enable = false
+  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[socialOptions] # if set, social icons will show up.
+  email = "mailto:diana.arnos@gmail.com"
+  phone = ""
+  facebook = ""
+  twitter = "https://twitter.com/dianaarnos"
+  github = "https://github.com/dianaarnos"
+  stack-overflow = ""
+  instagram = "https://instagram.com/dianaarnos"
+  google-plus = ""
+  youtube = ""
+  medium = "https://medium.com/@dianaarnos"
+  tumblr = ""
+  linkedin = "https://www.linkedin.com/in/dianaarnos/"
+  pinterest = ""
+  stack-exchange = ""
+  telegram = ""
+  steam = ""
+  weibo = ""
+  douban = ""
+  csdn = ""
+  gitlab = ""
+  mastodon = ""
+  jianshu = ""
+  zhihu = ""
+  signal = ""
+  whatsapp = ""
+  matrix = ""
+  xmpp = ""
+  dev-to = ""
+  gitea = ""
+  google-scholar = ""
+  twitch = ""
+
+[donationOptions]
+  enable = false # if set, the donation button will show up on the single page.
+  alipay = "" # Alipay QR Code image (example path: images/donation/alipay-qrcode.png) and put your file at root/static/images/donation/
+  wechat = "" # Wechat pay QR Code image (example path: same as above)
+  paypal = "" # Paypal URL
+  patreon = "" # Patreon URL
+  bitcoin = "" # example path: images/donation/bitcoin-code-image.png
+
+[copyrightOptions]
+  enableCopyrightLink = false # if set, you can add copyright link
+  copyrightLink = ""
+  copyrightLinkImage = ""
+  copyrightLinkText = ""
+
+# possible share name: "facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "whatsapp", "telegram"
+[[share]]
+  name = "facebook"
+[[share]]
+  name = "twitter"
+  username = "dianaarnos"
+[[share]]
+  name = "linkedin"
+[[share]]
+  name = "telegram"
+
+[[footerLinks]]
+  name = ""
+  link = ""
+[[footerLinks]]
+  name = ""
+  link = ""

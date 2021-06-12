@@ -2,6 +2,7 @@
 title = "organizando a minha vida - aplicativos e programas essenciais"
 date = 2017-01-10T21:30:02-03:00
 author = "Diana Arnos"
+description = "esses dias eu tava conferindo algumas listas de recomendações de aplicativos, como costumo fazer todo começo de ano (ou talvez a cada semestre) e ver se descubro algum legal que acabe entrando pra minha própria lista."
 categories = ["Outros"]
 tags = ["macOS", "android", "aplicativos"]
 +++

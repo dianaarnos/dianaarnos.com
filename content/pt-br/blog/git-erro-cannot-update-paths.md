@@ -2,6 +2,7 @@
 title = "Git - resolvendo o erro “Cannot update paths and switch to branch”  "
 date = 2016-01-22T21:30:02-03:00
 author = "Diana Arnos"
+description = "Geralmente esse erro acontece quando seu repositório por algum motivo não possui informações desse branch."
 categories = ["Programação"]
 tags = ["git"]
 +++

@@ -2,10 +2,13 @@
 title = "Quando o teto caiu"
 date = 2018-06-20T21:30:02-03:00
 author = "Diana Arnos"
-cover = "/images/posts/teto.png"
+image = "/images/posts/teto.png"
+description = "Algumas pessoas assumem que eu tenho uma “calma” que vem da arte marcial que pratico, mas não é bem assim. Ela não me traz necessariamente calma, mas me ensina a analisar estrategicamente o contexto de uma situação antes de gastar energia à toa. Um dia escrevo sobre isso."
 categories = ["Outros"]
 tags = ["filosofando", "vida"]
 +++
+![](/images/posts/teto.png " ")
+
 Eu raramente fico de mau humor. Raramente fico brava com algo ou fico frustrada. Não guardo mágoas nem de situações e nem de pessoas.
 
 Eu tenho amigos que ficam irritados comigo por eu não me irritar com (quase) nada.
@@ -18,7 +21,7 @@ Claro que essa mudança de pensamento não acontece da noite para o dia e já fa
 
 Na época em que eu fazia faculdade de História (leia-se: muitos anos atrás), eu passava o dia na casa da minha vó.
 
-Naquela época, as paredes da casa dela estavam aparentando algumas rachaduras em vários cômodos e na cozinha elas quase atravessavam o teto ao meio.
+Naquela época, as paredes da casa dela apresentravam algumas rachaduras em vários cômodos e na cozinha elas quase atravessavam o teto ao meio.
 
 Num belo dia, cheguei de manhã com minha mãe e, antes de sair para trabalhar, ela começou a reclamar do teto, dizendo que logo ia cair, que estava feio, blá blá blá. Quase 15 minutos de pura reclamação, como só minha mãe sabe fazer. Acabando o discurso, ela foi trabalhar.
 

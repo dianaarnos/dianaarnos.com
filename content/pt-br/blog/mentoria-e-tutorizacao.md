@@ -2,6 +2,8 @@
 title = "Mentoria e tutorização - precisamos conversar"
 date = 2019-09-07T21:30:02-03:00
 author = "Diana Arnos"
+image = "images/posts/tutor.jpg"
+description = "Todos nós, em algum momento de nossas carreiras, assumimos o papel de mentor e tutor. Seja como um representante de alguma comunidade de desenvolvimento ajudando a espalhar conhecimento, seja dentro de uma empresa em que coordenamos uma equipe ou precisamos preparar um sucessor, ou mesmo por um espaço delimitado de tempo numa hackathon ou em um workshop."
 categories = ["Carreira"]
 tags = ["mentoria"]
 +++
@@ -29,7 +31,6 @@ E cada um desses mentores tinha seus argumentos embasando a escolha. Nenhum dele
 Você sabia que tutorar e mentorar são coisas diferentes? Acredito que em algum momento você já tenha visto alguma árvore ou outra planta apoiada em uma espécie de pedaço de madeira, como nesta imagem aqui:
 
 ![](/images/posts/tutor.jpg " ")
-<img class="img-fluid" src="/assets/img/tutor.jpg">
 
 Isso é um tutor. A função dele é guiar o crescimento da planta em uma determinada direção (nesse caso, para cima). Ele dá a sustentação que, por enquanto, o próprio corpo da planta não tem.
 

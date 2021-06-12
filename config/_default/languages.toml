@@ -1,0 +1,14 @@
+[pt-br]
+  languageCode = "pt-br"
+  title = "Diana Arnos"
+  languageName = "Português"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/pt-br"
+
+[en]
+  title = "Diana Arnos"
+  languageName = "English"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/en"

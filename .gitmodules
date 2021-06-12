@@ -1,4 +1,3 @@
-[submodule "themes/notepadium"]
-	path = themes/notepadium
-	url = git@github.com:dianaarnos/hugo-notepadium
-	branch = master
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = git@github.com:dianaarnos/theme-zzo.git
